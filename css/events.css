@@ -1,0 +1,480 @@
+*
+/* Styling af navbar */
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+body {
+  background-color: #a0a093;
+  background-position: center;
+}
+
+/* Styling af header/navbar */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 700px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #a0a093;
+    padding: 10px;
+}
+
+.navbar ul {
+    display:inline-flex;
+    color:#2c4929;
+}
+
+.navbar ul li {
+    margin: 20px 10px;
+    padding: 10px 20px;  
+    list-style: none;
+    font-family: "Koulen", sans-serif;
+    font-size: 26px;
+}
+
+.navbar ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.1);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:#2c4929;
+}
+
+/* submenu 1 begynder */
+.submenu1 {
+    display: none;
+}
+
+.submenu1 ul li { 
+    font-size: 20px;
+}
+
+.navbar ul li:hover .submenu1 {
+    display: block;
+    position:absolute;
+    background-color: #a0a093;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .submenu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .submenu1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #2c4929;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.navbar ul li:hover .submenu1 ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li:hover .submenu1 ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover .submenu1 ul li a:hover {
+    color: #a0a093;
+}
+
+.submenu1 {
+    display: none;
+}
+
+.hoverme:hover .submenu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#a0a093;
+}
+/* submenu 1 slutter */
+
+/* submenu 2 begynder */
+.submenu2 {
+    display: none;
+}
+
+.submenu2 ul li {
+    font-size: 20px;
+}
+
+.navbar ul li:hover .submenu2 {
+    display: block;
+    position: absolute;
+    background-color: #a0a093;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .submenu2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .submenu2 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #2c4929;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.navbar ul li:hover .submenu2 ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li:hover .submenu2 ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover .submenu2 ul li a:hover {
+    color: #a0a093;
+}
+
+.submenu2 {
+    display: none;
+}
+
+.hoverme:hover .submenu2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#a0a093;
+}
+/* submenu 2 slutter */
+
+/* submenu 3 begynder */
+.submenu3 {
+    display: none;
+}
+
+.submenu3 ul li {
+    font-size: 20px;
+}
+
+.navbar ul li:hover .submenu3 {
+    display: block;
+    position:absolute;
+    background-color: #a0a093;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .submenu3 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .submenu3 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #2c4929;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.navbar ul li:hover .submenu3 ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li:hover .submenu3 ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover .submenu3 ul li a:hover {
+    color: #a0a093;
+}
+
+.submenu3 {
+    display: none;
+}
+
+.hoverme:hover .submenu3{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#a0a093;
+}
+/* submenu 3 slutter */
+
+/* Styling af logo i navbar */ 
+.logo img {
+    width: 220px;
+    height: auto;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 30px;
+}
+
+/* Styling af streg */
+  hr {
+    border: none; 
+    height: 1.8px; 
+    background-color: #2c4929; 
+    margin: 0; 
+  }
+
+/* Styling af main */
+main {
+    background-color: #a0a093;
+    font-family: "Koulen", sans-serif;
+    font-size: 18px;
+    color: #2c4929;
+}
+
+h2 {
+    font-size: 25px;
+    color: #2c4929;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 23px;
+    color: #2c4929;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling af brødtekst */
+.intro,
+.fredagsbar-intro,
+.festuge-intro {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.anbefalinger {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.northside-intro,
+.spot-intro,
+.kapsejlads-intro
+{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+    flex: 1;
+    background-color: #a0a093;
+    border: 2px solid #7F621F; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kilde-1,
+.kilde-2 {
+    color: #7F621F;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+/* Styling af containere */
+.kapsejlads-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+.kapsejlads-intro {
+    flex: 1;
+    padding: 20px;
+    background-color: #a0a093;
+    border: 2px solid #7F621F;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    margin-right: 20px; /* Tilføj lidt plads mellem tekst og billede */
+}
+
+.kapsejlads-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kapsejlads-img {
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    max-width: 500px;
+    height: auto;
+}
+
+.kilde-1 {
+    margin-top: 10px;
+    color: #7F621F;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.northside-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+.northside-img-container {
+    margin-right: 20px;
+}
+
+.northside-img {
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    max-width: 600px;
+    height: auto;
+}
+
+.northside-intro {
+    flex: 1;
+    padding: 20px;
+    background-color: #a0a093;
+    border: 2px solid #7F621F;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+}
+
+/* Spot container styling */
+.spot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Juster alle elementer lodret på samme linje */
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+.spot-intro {
+    flex: 1;
+    padding: 20px;
+    background-color: #a0a093;
+    border: 2px solid #7F621F;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    line-height: 45px;
+    text-align: justify;
+    margin-right: 20px; 
+}
+
+.spot-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.spot-img {
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    max-width: 550px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.kilde-2 {
+    margin-top: 10px;
+    color: #7F621F;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+/* styling af billeder */
+.spot-img,
+.northside-img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    width: 600px;
+    height: auto; 
+    margin-right: 60px;
+}
+
+/* Styling af footer */
+.footer {
+    background-color: #a0a093;
+    width: 100%;
+    margin: 0;
+    color: #918e51;
+    padding: 20px;
+    text-align: left; 
+}
+
+/* Styling af ul */
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.footer ul li a {
+    color: #7F621F;
+    text-decoration: none;
+    font-family: "Koulen", sans-serif;
+    opacity: 0.7;
+}
+  
+.footer ul li a:hover {
+    opacity: 1;
+}
+  
+.info {
+    display: inline;
+}

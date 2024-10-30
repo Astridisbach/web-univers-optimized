@@ -1,0 +1,418 @@
+*
+/* Styling af navbar */
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+body {
+  background-color: #a0a093;
+  background-position: center;
+}
+
+/* Styling af header/navbar */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 700px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #a0a093;
+    padding: 10px;
+}
+
+.navbar ul {
+    display:inline-flex;
+    color:#2c4929;
+}
+
+.navbar ul li {
+    margin: 20px 10px;
+    padding: 10px 20px;  
+    list-style: none;
+    font-family: "Koulen", sans-serif;
+    font-size: 26px;
+}
+
+.navbar ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.1);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:#2c4929;
+}
+
+/* submenu 1 begynder */
+.submenu1 {
+    display: none;
+}
+
+.submenu1 ul li { 
+    font-size: 20px;
+}
+
+.navbar ul li:hover .submenu1 {
+    display: block;
+    position:absolute;
+    background-color: #a0a093;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .submenu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .submenu1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #2c4929;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.navbar ul li:hover .submenu1 ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li:hover .submenu1 ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover .submenu1 ul li a:hover {
+    color: #a0a093;
+}
+
+.submenu1 {
+    display: none;
+}
+
+.hoverme:hover .submenu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#a0a093;
+}
+/* submenu 1 slutter */
+
+/* submenu 2 begynder */
+.submenu2 {
+    display: none;
+}
+
+.submenu2 ul li {
+    font-size: 20px;
+}
+
+.navbar ul li:hover .submenu2 {
+    display: block;
+    position: absolute;
+    background-color: #a0a093;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .submenu2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .submenu2 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #2c4929;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.navbar ul li:hover .submenu2 ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li:hover .submenu2 ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover .submenu2 ul li a:hover {
+    color: #a0a093;
+}
+
+.submenu2 {
+    display: none;
+}
+
+.hoverme:hover .submenu2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#a0a093;
+}
+/* submenu 2 slutter */
+
+/* submenu 3 begynder */
+.submenu3 {
+    display: none;
+}
+
+.submenu3 ul li {
+    font-size: 20px;
+}
+
+.navbar ul li:hover .submenu3 {
+    display: block;
+    position:absolute;
+    background-color: #a0a093;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .submenu3 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .submenu3 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #2c4929;
+    border-radius: 0;
+    text-align: left;
+    background: transparent;
+}
+
+.navbar ul li:hover .submenu3 ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li:hover .submenu3 ul li a {
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover .submenu3 ul li a:hover {
+    color: #a0a093;
+}
+
+.submenu3 {
+    display: none;
+}
+
+.hoverme:hover .submenu3{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color:#a0a093;
+}
+/* submenu 3 slutter */
+
+/* Styling af logo i navbar */ 
+.logo img {
+    width: 220px;
+    height: auto;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 30px;
+}
+
+/* Styling af streg */
+  hr {
+    border: none; 
+    height: 1.8px; 
+    background-color: #2c4929; 
+    margin: 0; 
+  }
+
+/* Styling af main */
+main {
+    background-color: #a0a093;
+    font-family: "Koulen", sans-serif;
+    color: #2c4929;
+}
+
+h2 {
+    font-size: 25px;
+    color: #2c4929;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 23px;
+    color: #2c4929;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* styling af brødtekst*/ 
+.intro1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.intro2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.om1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.afrunding1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.intro3 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.om2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.afrunding2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Styling af billeder */
+.billede-container1 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.billede-container1 img {
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+}
+
+.billede-container2 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.billede-container2 img {
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+}
+
+.billede-container3 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.billede-container3 img {
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+}
+
+.fabrik1-img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #7F621F;
+    border-radius: 5px;
+    width: 500px;
+    height: auto; 
+}
+
+/* Styling af footer */
+.footer {
+    background-color: #a0a093;
+    width: 100%;
+    margin: 0;
+    color: #918e51;
+    padding: 20px;
+    text-align: left; 
+}
+
+/* Styling af ul */
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+  
+.footer ul li a {
+    color: #7F621F;
+    text-decoration: none;
+    font-family: "Koulen", sans-serif;
+    opacity: 0.7;
+}
+  
+.footer ul li a:hover {
+    opacity: 1;
+}
+  
+.info {
+    display: inline;
+}
